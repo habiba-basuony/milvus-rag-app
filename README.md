@@ -45,18 +45,32 @@ mvn spring-boot:run
 
 ## ⚙️ Project Structure
 ```
-milvus-rag-app/
-├── backend/                  # Spring Boot app
-│   ├── src/main/
-│   │   ├── java/com/ragproject/ # Backend code
-│   │   ├── resources/        # Config & frontend
-│   └── pom.xml               # Dependencies
-├── infrastructure/           # Docker setup
-│   └── docker-compose.yml    # Milvus config
-├── frontend-screenshots/     # UI screenshots
-├── .gitignore                # Ignored files
-├── LICENSE                   # MIT License
-└── README.md                 # Documentation
+ milvus-rag-app/
+├── backend/
+│   ├── src/
+│   │   └── main/
+│   │       ├── java/
+│   │       │   └── com/
+│   │       │       └── ragproject/
+│   │       │           ├── config/
+│   │       │           │   └── MilvusConfig.java
+│   │       │           ├── controller/
+│   │       │           │   ├── HomeController.java
+│   │       │           │   └── RagController.java
+│   │       │           ├── service/
+│   │       │           │   ├── RagQueryService.java
+│   │       │           │   └── RagService.java
+│   │       │           └── RagApplication.java
+│   │       └── resources/
+│   │           ├── application.properties
+│   │           ├── dataset/
+│   │           │   └── ancient_civilizations.txt
+│   │           └── static/
+│   │               └── index.html
+│   └── pom.xml
+├── infrastructure/
+│   └── docker-compose.yml
+└── frontend-screenshots/
 ```
 
 ## ⚙️ Configuration
