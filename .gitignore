@@ -1,0 +1,11 @@
+﻿# Java
+target/
+*.class
+*.jar
+
+# IDE
+.idea/
+*.iml
+
+# Docker
+volumes/
