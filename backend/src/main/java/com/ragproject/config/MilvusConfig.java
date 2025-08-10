@@ -1,4 +1,4 @@
-package com.ragproject;
+package com.ragproject.config;
 
 import dev.langchain4j.store.embedding.EmbeddingStore;
 import dev.langchain4j.store.embedding.milvus.MilvusEmbeddingStore;

@@ -1,4 +1,4 @@
-package com.ragproject;
+package com.ragproject.service;
 
 import dev.langchain4j.chain.ConversationalRetrievalChain;
 import dev.langchain4j.data.segment.TextSegment;

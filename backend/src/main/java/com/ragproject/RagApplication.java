@@ -1,5 +1,5 @@
 package com.ragproject;
-
+import com.ragproject.config.MilvusConfig;
 import dev.langchain4j.data.document.Document;
 import dev.langchain4j.data.document.DocumentParser;
 import dev.langchain4j.data.document.loader.FileSystemDocumentLoader;

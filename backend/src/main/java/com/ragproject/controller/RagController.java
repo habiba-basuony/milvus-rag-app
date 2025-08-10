@@ -1,5 +1,5 @@
-package com.ragproject;
-
+package com.ragproject.controller;
+import com.ragproject.service.RagQueryService;
 import org.springframework.web.bind.annotation.*;
 import java.util.Collections;
 import java.util.HashMap;

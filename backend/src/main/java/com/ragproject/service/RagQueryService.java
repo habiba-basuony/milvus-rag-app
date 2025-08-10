@@ -1,4 +1,4 @@
-package com.ragproject;
+package com.ragproject.service;
 
 import dev.langchain4j.model.chat.ChatLanguageModel;
 import dev.langchain4j.model.embedding.EmbeddingModel;
